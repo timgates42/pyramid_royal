@@ -21,7 +21,7 @@ def setupPackage():
     os.environ['MONGO_DB_NAME'] = 'royal_example'
     os.environ['MONGO_DB_PREFIX'] = ''
 
-    # sqla extentsion setup.
+    # sqla extension setup.
     global engine
 
     alembic_config = Config()
